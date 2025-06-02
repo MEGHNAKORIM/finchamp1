@@ -1,0 +1,15 @@
+
+[
+    { "symbol": "AAPL", "price": 143.24 },
+    { "symbol": "GOOGL", "price": 2735.12 },
+    { "symbol": "AMZN", "price": 3331.44 },
+    { "symbol": "MSFT", "price": 271.60 },
+    { "symbol": "TSLA", "price": 709.67 },
+    { "symbol": "NFLX", "price": 502.81 },
+    { "symbol": "FB", "price": 339.03 },
+    { "symbol": "NVDA", "price": 737.09 },
+    { "symbol": "AMD", "price": 94.43 },
+    { "symbol": "INTC", "price": 56.22 }
+ 
+  ]
+  

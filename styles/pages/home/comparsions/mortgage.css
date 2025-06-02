@@ -1,0 +1,65 @@
+.mortgage-container {
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: #e8e4e8; /* Light background color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mortgage-container h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: #201c4c;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.money-image {
+  display: block;
+  margin: 0 auto 30px auto;
+}
+
+.mortgage-card {
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.mortgage-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.mortgage-card h2 {
+  font-size: 2rem;
+  color: #201c4c;
+  margin-bottom: 10px;
+}
+
+.mortgage-card p {
+  margin: 5px 0;
+  color: #333;
+}
+
+.mortgage-card .mort-1 {
+  font-weight: bold;
+}
+
+.visit-website-button-mort {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #201c4c;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.visit-website-button-mort:hover {
+  background-color: #7974b1;
+}

@@ -1,0 +1,61 @@
+.learn-more-card {
+   
+    padding: 16px;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+  }
+  
+
+  .learn-more-card-title {
+    font-size: 3em;
+    margin-bottom: 10px;
+    margin-top: 5px;
+  }
+  
+  .learn-more-card-description {
+    font-size: 1em;
+    margin-bottom: 25px;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+  
+  .learn-more-button {
+    background-color: #332e66;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: -13px; 
+  }
+
+  .learn {
+    background-color: #534c97;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: -13px; 
+  }
+  
+  .learn-more-button, .learn:hover {
+    background-color: #0056b3;
+  }
+
+  .learn-more-button, .learn:active {
+    background-color: #004494;
+    transform: scale(0.98);
+  }
+  
+ 

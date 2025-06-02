@@ -1,0 +1,96 @@
+.retirement-page {
+  margin: 60px;
+  border: 1px solid rgba(0, 0, 0, 0.1); /* Transparent border */
+  border-radius: 8px;
+  background-color: #f9f9f9; /* Light background color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .retiree {
+    padding: 40px;
+  }
+  .retirement-header {
+      color:  #9370DB;; /* White */
+      text-align: center;
+      margin-bottom: 40px;
+      margin-top: 10px;
+  }
+  .retirement-header h1 {
+ /* White */
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  .retirement-header p {
+/* White */
+    font-size: 1.2rem;
+  }
+  .retirement-header img{
+    width:110px;
+  }
+  .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .header-left {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .header-right {
+    flex-shrink: 0;
+    margin-left: 20px;
+  }
+  .div {
+    margin-bottom: 20px;
+    margin-top: -10px;
+  }
+  .light-purple-section {
+    background-color: #E6E6FA; /* Lavender */
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  .light-purple-sectionli
+  {
+    margin-bottom: 50px;
+  }
+  .dark-purple-section {
+    background-color: #9b0a9b; /* Purple */
+    color: #FFF; /* White */
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  
+  .light-purple-section ul,
+  .dark-purple-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .light-purple-section li,
+  .dark-purple-section li {
+    margin-bottom: 20px;
+    border: 3px solid black;
+    padding: 20px
+
+  }
+  
+  .light-purple-section h3,
+  .dark-purple-section h3 {
+    color: #201c4c;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .light-purple-section a,
+  .dark-purple-section a {
+    color: #05078a; /* Purple */
+    font-weight: bold;
+  }
+  
+  .light-purple-section a:hover,
+  .dark-purple-section a:hover {
+    text-decoration: underline;
+  }
+  

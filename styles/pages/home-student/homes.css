@@ -1,0 +1,74 @@
+.first-container {
+  display: flex; 
+  flex-direction: row;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.home-cards-container {
+  flex: 1; /* Take remaining space */
+  display: flex;
+  align-items: center; /* Center align vertically if needed */
+  justify-content: center; /* Center align horizontally if needed */
+  margin-left: 20px;
+}
+
+.home-cards {
+  display: flex;
+  flex-wrap: nowrap; /* Prevent wrapping to new lines */
+  overflow-x: auto; /* Enable horizontal scrolling if needed */
+  gap: 20px; /* Space between cards */
+  width: 1100px;
+  height: 570px;
+  margin-left: 5px;
+  margin-right: -70px;
+}
+
+.home-cards::-webkit-scrollbar {
+  display: none; /* Hide scrollbar in WebKit browsers */
+}
+
+.student-loan {
+  height: 220px;
+  background-color: rgba(26, 42, 65, 0.9); /* Adjusted RGBA */
+  color: white;
+}
+
+.latest-articles {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.latest-articles h1 {
+  text-align: center;
+  font-size: 2.3rem;
+  text-decoration: underline;
+}
+
+.ai-assistant {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.ai-assistant:hover {
+  background-color: #0056b3;
+}
+
+.ai-assistant.show {
+  display: block;
+}
+
+.ai-assistant.hide {
+  display: none;
+}

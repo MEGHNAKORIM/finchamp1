@@ -1,0 +1,74 @@
+.HomeCards
+{
+   width: 220px;
+   height:250px;
+
+   background-color: #f1eff1;
+   border: 10px shadow black;   
+   /* margin: 0 auto; */
+   margin-left: 20px;
+
+  background-color: #f1eff1;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  padding-left: 20px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.HomeCards:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.all {
+  margin-left: -18px; 
+}
+.card-image
+{
+  width: 75px;
+  margin: 20px;
+  align-items: center;
+  margin-bottom: 16px;
+  margin-left: -5px; 
+}
+  
+  .card-text h2 {
+    font-size: 1.5em;
+    text-align: center;
+    padding-bottom: 20px;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: -13px; 
+  }
+  
+  .card-text button {
+    background-color: #201c4c;
+    
+     /* background-color: pink; */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 20px;
+  }
+  
+  .card-text button:hover {
+    background-color: #201c4c;
+  }
+  .card-text button:active {
+    background-color: #201c4c;
+    transform: scale(0.98);
+  }

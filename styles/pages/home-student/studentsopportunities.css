@@ -1,0 +1,115 @@
+.student-content-container {
+  margin: 60px;
+  border: 1px solid rgba(0, 0, 0, 0.1); /* Transparent border */
+  border-radius: 8px;
+  background-color: #f9f9f9; /* Light background color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.student-financing-page {
+  padding: 40px;
+}
+
+.student-header {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Ensure content is evenly spaced */
+}
+
+.header-left {
+  flex: 1;
+  text-align: left;
+}
+
+.header-right {
+  flex-shrink: 0;
+  margin-left: 20px; /* Adjust spacing between heading and image */
+}
+
+.header-right img {
+  max-width: 100px; /* Adjust as needed */
+  border-radius: 50%; /* Optional: Make the image round */
+}
+
+.student-header h1 {
+  color: #201c4c;
+  font-size: 3rem;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.student-header p {
+  color: #201c4c;
+  font-size: 1.2rem;
+  margin-left: 10px;
+}
+
+.scholarships,
+.financial-aid,
+.internships,
+.freelance {
+  margin-bottom: 10px;
+  padding: 20px;
+}
+.div {
+  margin-bottom: 20px;
+  margin-top: -10px;
+}
+.scholarships h2,
+.financial-aid h2,
+.internships h2,
+.freelance h2 {
+  color: #575bbd;
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+.scholarships ul,
+.financial-aid ul,
+.internships ul,
+.freelance ul {
+  padding: 0;
+}
+
+.scholarships li,
+.financial-aid li,
+.internships li,
+.freelance li {
+  margin-bottom: 20px;
+}
+
+.scholarships h3,
+.financial-aid h3,
+.internships h3,
+.freelance h3 {
+  font-size: 1.6rem;
+  color: #9370db;
+}
+
+.scholarships p,
+.financial-aid p,
+.internships p,
+.freelance p {
+  font-size: 1.2rem;
+}
+
+.scholarships a,
+.financial-aid a,
+.internships a,
+.freelance a {
+  color: #007f00;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.financial-aid a:hover,
+.internships a:hover,
+.freelance a:hover {
+  text-decoration: underline;
+}

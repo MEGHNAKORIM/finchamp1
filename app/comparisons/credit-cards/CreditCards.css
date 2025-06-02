@@ -1,0 +1,131 @@
+.cc-card-container {
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1); /* Transparent border */
+  border-radius: 8px;
+  background-color: #e8e4e8; /* Light background color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+
+.header .content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.header-left h1 {
+  color: #201c4c;
+  font-size: 3rem;
+  margin: 0;
+  font-weight: 600;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: 150px;
+}
+.header-left{
+  display: flex;
+  align-items: center;
+  flex: 1;
+  margin-left: 20px;
+
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.filter-button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: #201c4c;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.filter-button:hover {
+  background-color: #7974b1;
+}
+
+.cc-heading {
+  text-align: center;
+  font-size: 2rem;
+  color: #201c4c;
+  margin-bottom: 20px;
+}
+
+.credit-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns of equal width */
+  gap: 20px;
+}
+
+.credit-card {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  width: 100%;
+}
+
+.credit-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-image {
+  margin-right: 35px;
+  width: 150px; /* Adjust size as needed */
+  height: 100px; /* Adjust size as needed */
+}
+
+.card-info {
+  flex: 1;
+}
+
+.card-info h2 {
+  font-size: 1.5rem;
+  color: #201c4c;
+  margin-bottom: 10px;
+}
+
+.card-info p {
+  margin: 5px 0;
+  color: #333;
+}
+
+.card-info .bold {
+  font-weight: bold;
+}
+
+.visit-website-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #201c4c;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.visit-website-button:hover {
+  background-color: #7974b1;
+}

@@ -1,0 +1,77 @@
+.stock-price-checker {
+  width: 250px;
+  margin-left: -10px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd; /* Border for the card */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  height: 580px;
+  overflow: hidden; /* Ensure content overflow is hidden */
+}
+
+.stock-price-checker h2 {
+  font-weight: 700;
+  font-size: 18px; /* Increase font size */
+  margin-bottom: 15px;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.search-bar label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.search-bar input[type="text"] {
+  width: 200px;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.search-bar button {
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #332e66;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  margin-left: 50px;
+}
+
+.search-bar button:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+.stock-list {
+  list-style-type: none;
+  padding: 0;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.stock-list li {
+  margin-bottom: 8px;
+}
+
+.stock-price {
+  font-weight: bold;
+}
+
+.stock-price.green {
+  color: green;
+}
+
+.stock-price.red {
+  color: red;
+}

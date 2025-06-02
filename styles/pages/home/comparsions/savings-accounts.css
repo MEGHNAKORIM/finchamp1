@@ -1,0 +1,70 @@
+.savings-account-container {
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: #e8e4e8;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.savings-account-container h1 {
+  text-align: center;
+  color: #201c4c;
+  font-size: 3rem;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.save-img {
+  display: block;
+  margin: 0 auto 30px auto;
+}
+
+.savings-accounts-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.savings-account-card {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.savings-account-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.savings-account-card h2 {
+  font-size: 2rem;
+  color: #201c4c;
+  margin-bottom: 10px;
+}
+
+.savings-account-card p {
+  margin: 5px 0;
+  color: #333;
+}
+
+.savings-account-card .save {
+  font-weight: bold;
+}
+
+.visit-website-button-save {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #201c4c;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.visit-website-button-save:hover {
+  background-color: #7974b1;
+}

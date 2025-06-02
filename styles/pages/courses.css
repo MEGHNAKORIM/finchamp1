@@ -1,0 +1,92 @@
+.courses-container {
+    margin: auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 1200px; /* Adjust width to accommodate three cards per row */
+}
+
+.courses-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.courses-header h2 {
+    text-align: left;
+    font-size: 3rem;
+    color: #1a237e; 
+    font-weight: 500;
+}
+.courses-header h3 {
+    text-align: left;
+    margin-bottom: 0;
+    font-size: 25px;
+    color: #1a237e; 
+    font-weight: 300;
+}
+
+.courses-header img {
+    width: 100px; 
+}
+
+.courses-list {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px;
+    justify-content: center;
+}
+
+.course-item {
+    background: #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    flex: 1 1 calc(33.33% - 20px); 
+    max-width: calc(33.33% - 20px);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.course-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.course-item h3 {
+    margin-top: 0;
+    color: #1a237e; 
+    font-size: 1.5rem;
+    font-weight: 650;
+    margin-bottom: 10px;
+}
+
+.course-item p {
+    color: purple;
+    font-size: 1.2rem;
+}
+
+.course-item a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background: #201c4c;
+    color: #ffffffe8;
+    font-weight: 500;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.uni-image {
+    width: 100px;
+}
+
+.course-item a:hover {
+    background: #4b4683;
+}
+
+.insti {
+    color: black;
+    font-weight: bold;
+}

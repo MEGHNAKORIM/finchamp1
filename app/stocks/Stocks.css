@@ -1,0 +1,90 @@
+body {
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  .stocks-container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 60px;
+    margin-bottom: 60px;;
+  }
+  
+  .stocks-container h1 {
+    font-size: 2.7rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    margin-left: 40px;
+    color: #201c4c;
+  }
+  
+  .stocks-container h2 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    color: #0073aa;
+  }
+  
+  .stocks-container p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: #444;
+  }
+  
+  .stocks-container ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .stocks-container li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .stocks-container strong {
+    color: #000;
+  }
+  
+  .stocks-container img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+
+  .img {
+    display: flex;
+    align-items: center;
+    margin-left: 180px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+  }
+
+  .contents {
+    margin: 20px;
+    margin-bottom: 20px;
+  }
+
+  .content {
+    margin: 80px;
+  }
+
+  .content p {
+    font-size: 1.1rem;
+  }
+  .content h2 {
+    font-size: 2.5rem;
+  }
+
+  .button {
+    font-size: 1.5rem;
+    margin-left: 25vw;
+    font-weight: bold;
+    color: #201c4c;
+    text-align: center;
+  }

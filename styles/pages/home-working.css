@@ -1,0 +1,125 @@
+h.women-finance-opportunities {
+  margin: 60px;
+  border: 1px solid rgba(0, 0, 0, 0.1); /* Transparent border */
+  border-radius: 8px;
+  background-color: #f9f9f9; /* Light background color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.women-page {
+  padding: 40px;
+}
+
+  .page {
+    padding: 40px;
+  }
+  .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .header-left {
+    flex: 1;
+    text-align: left;
+  }
+  .header-right {
+    flex-shrink: 0;
+    margin-left: 20px;
+  }
+  .women-header
+  {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  
+  .women-header img {
+    max-width: 110px; 
+  }
+  
+  .women-header h1 {
+    color: #FF69B4;
+    font-size: 3rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+  }
+  
+  .women-header p {
+    color: #333; 
+    font-size: 1.2rem;
+    margin-left: 10px;
+  }
+  
+  .w-scholarships,
+  .w-financial-aid,.w-loans,
+  .w-career-development, .w-internships {
+    margin-bottom: 10px;
+    padding: 20px;
+  }
+  .women-header p,
+  .w-scholarships p,
+  .w-loans p,
+  .w-financial-aid p,
+  .w-internships p,
+  .w-career-development p {
+    margin-bottom: 20px;color: black; 
+    font-size: 17px;
+  }
+  .div {
+    margin-bottom: 20px;
+    margin-top: -10px;
+  }
+  .w-scholarships h2,
+  .w-loans h2,
+  .w-financial-aid h2,
+  .w-internships h2,
+  .w-career-development h2 {
+    color: #FF1493;
+    font-size: 2.4rem;
+    font-weight: 500;
+  }
+  
+  .w-scholarships ul,
+  .w-loans ul,
+  .w-financial-aid ul,
+  .w-internships ul,
+  .w-career-development ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .w-scholarships li,
+  .w-loans li,
+  .w-financial-aid li,
+  .w-internships li,
+  .w-career-development li {
+    margin-bottom: 20px;
+  }
+  
+  .w-scholarships h3,
+  .w-loans h3,
+  .w-financial-aid h3,
+  .w-internships h3,
+  .w-career-development h3 {
+     color: #FF8C00; 
+     font-style: italic;/* Hot Pink */
+  }
+  
+  .w-scholarships a,
+  .w-loans a,
+  .w-financial-aid a,
+  .w-internships a,
+  .w-career-development a {
+    color: #FF69B4; /* Hot Pink */
+  
+    
+  }
+  
+  .w-scholarships a:hover,
+  .w-loans a:hover,
+  .w-financial-aid a:hover,
+  .w-internships a:hover,
+  .w-career-development a:hover {
+    text-decoration: underline;
+  }
+  

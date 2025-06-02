@@ -1,0 +1,106 @@
+.news-component-box
+{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  color: #201c4c;
+  
+}
+.news-component-box h1{
+  font-size: 3rem;
+  margin-left: 10px;
+  font-weight: 500;
+}
+.news-component-box h3{
+  font-size: 1.5rem;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.news-main-container
+{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+}
+.news-mini{
+  display: flex
+}
+
+
+
+.options {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0; /* Remove default padding */
+  margin: 40px 20px; /* Add margin around the list */
+  background-color: #f9f9f9; /* Background color for the list container */
+  border-radius: 8px; /* Rounded corners for the list container */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Light shadow for a subtle 3D effect */
+  display: flex; /* Use flexbox to make the list horizontal */
+  justify-content: space-around;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.options li {
+  flex: 1; /* Make each list item take up an equal amount of space */
+  text-align: center; /* Center the text */
+  padding: 20px 20px; /* Padding inside each list item */
+  background-color: white; /* Background color for list items */
+  cursor: pointer; /* Change cursor to pointer to indicate clickability */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+  margin: 3px;
+  /* padding-left: 30px; */
+  padding-right: 50px;
+  border-radius: 5px; 
+  font-size: 17px;
+}
+
+.options li:hover {
+  background-color: #007bff; /* Change background color on hover */
+  color: white; /* Change text color on hover */
+}
+
+.options li a {
+  text-decoration: none; /* Remove underline from links */
+  color: inherit; /* Inherit color from parent element */
+  display: block; /* Make the link fill the entire list item */
+  width: 100%; /* Ensure the link spans the full width */
+  height: 100%; /* Ensure the link spans the full height */
+  text-align: center; /* Center text inside the link */
+  padding: 15px 20px; /* Add padding inside the link */
+}
+.news-component-text{
+  margin-bottom: 3px;
+}
+.news-component-text h1{
+  font-size: 4rem;
+}
+.news-component-text h3{
+  margin-top: 2px;
+  font-size: 1.5rem;
+}
+
+.icons-component-box {
+list-style-type: none;
+/* padding: 0; */
+/* margin: 20px 0; */
+display: flex;
+justify-content: center;
+gap: 20px; /* Space between icons */
+margin-top: 60px;
+}
+
+.icons-component-box li {
+display: inline-flex;
+justify-content: center;
+align-items: center;
+width: 50px; /* Fixed width for icons */
+height: 50px; /* Fixed height for icons */
+}
+
+.icons-component-box img {
+width: 100%;
+height: 100%;
+object-fit: contain; /* Ensure icons fit within the container */
+}
